@@ -1,8 +1,6 @@
 package jp.learningdesign.javastudy;
-
 import java.util.Scanner;
-
-public class BmaiCalc {
+public class BmaiCalc2 {
 /*BMI（体格指数）を計算するプログラム
  * BMI = 体重　/ （身長　*身長）
  * 体重　kg、身長　cm
@@ -25,15 +23,8 @@ public class BmaiCalc {
 		bmi = weight / (height * height);
 		double after = Math.round(bmi);
 		System.out.println((double)after);
-		System.out.println("あなたのBMIは、" + bmi + "です。");
-		
-		if(bmi<18.5) {
-			System.out.println("痩せ型です");
-		} else if (bmi<25) {
-			System.out.println("標準です");
-		} else {
-			System.out.println(" 肥満です"); 
-		}
+		System.out.println("BMI:" + bmi + "です。");
+
 	}
 
 }
